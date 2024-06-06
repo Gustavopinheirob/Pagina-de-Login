@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(./assets/pexels-billelmoula-540518.jpg);
+    background-size: cover;
+}
+
+header,
+.link-header {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto 0;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(15px);
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+}
+
+h3{
+    font-size: 18px;
+    color: white;
+    margin: 0 0 30px 0;
+}
+
+input{
+    display: block;
+    height: 35px;
+    width: 280px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, .5);
+    margin: 0 auto 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: #fff
+}
+
+input::placeholder{
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.log-on{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#log{
+    font-weight: 700;
+    color: #242424;
+}
+
+button{
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    width: 250px;
+    background-color: #242424;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
